@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<body>
+        <!-- <img src="goldfish photo1.jpg" width = "100%" height = "100%"> -->
+       
+        <div id="fish-names">
+               <div id="Logo1">Fish Record</div>
+               <li class="fishname">Gold Fish 85</li>
+               <li class="fishname">Gold Fish 65</li>
+               <li class="fishname">Carp/Koi 100</li>
+               <li class="fishname">Carp/Koi 65</li>
+               <li class="fishname">Molly 45</li>
+               <li class="fishname">Molly 20</li>
+               <li class="fishname">Gappy 85</li>
+               <li class="fishname">Gappy 65</li>
+               <li class="fishname">Shobon 75</li>
+               <li class="fishname">Shobon 45</li>
+               <li class="fishname">Shobon 20</li>
+               <li class="fishname">Angel Fish 65</li>
+        </div>
+
+        <div id="fish-inputs">
+                <input type="number" class="inputBox" data-price="85" name="Goldfish85" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="65" name="Goldfish65" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="100" name="CarpKoi100" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="65" name="CarpKoi65" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="45" name="Molly45" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="20" name="Molly20" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="85" name="Gappy85" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="65" name="Gappy65" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="75" name="Shobon75" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="45" name="Shobon45" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="20" name="Shobon20" oninput="handleChange(this)">
+                <input type="number" class="inputBox" data-price="65" name="Angelfish65" oninput="handleChange(this)">
+
+        <button class="submit" id="submit" onclick="handleSubmit()">Submit</button>
+        </div>          
+        
+        <div id="Time"></div>
+        <div id="displayStatus1"></div>
+        <div id="displayStatus2"></div>
+        <div id="displayStatus3"></div>
+        <div id="displayStatus4"></div>
+        <div id="displayStatus5"></div>
+        <div id="fishSelected"></div>
+                            
+        <script src="index.js"></script>
+        </body>
+</html>.
